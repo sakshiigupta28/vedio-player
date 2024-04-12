@@ -37,13 +37,13 @@ const PlayList = ({ handleSelectVideo }) => {
       videoUrl:
         "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
       description:
-        "Song : Raja Raja Kareja Mein Samaja/nAlbum : Raja Kareja Mein Samaja/nArtist : Radhe Shyam Rasia/nSinger : Radhe Shyam Rasia/nMusic Director : Sohan Lal, Dinesh Kumar/nLyricist : Vinay Bihari, Shailesh Sagar, Parmeshwar Premi/nMusic Label : T-Series",
+        "While forest managers have proved adept of stamping out small wildfires, they have been less successful at suppressing larger, more devastating burns. The result is that the average wildfire is more severe than it would be without human intervention.",
       subscriber: "25254545 Subscribers",
       isLive: true,
     },
     {
       id: "3",
-      title: "The first Blender Open Movie from 2006",
+      title: "Elephants Dream",
       thumbnailUrl: ElephantsDream,
       duration: "12:18",
       uploadTime: "May 9, 2011",
@@ -52,7 +52,7 @@ const PlayList = ({ handleSelectVideo }) => {
       videoUrl:
         "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
       description:
-        "Song : Raja Raja Kareja Mein Samaja/nAlbum : Raja Kareja Mein Samaja/nArtist : Radhe Shyam Rasia/nSinger : Radhe Shyam Rasia/nMusic Director : Sohan Lal, Dinesh Kumar/nLyricist : Vinay Bihari, Shailesh Sagar, Parmeshwar Premi/nMusic Label : T-Series",
+        "An old man, Proog, guides the young Emo through a giant surreal machine, in which the rooms have no clear transition to each other. After Proog saves Emo from flying plugs in a room consisting of a gigantic telephone switchboard, they run through a dark room filled with electrical cables and flee from a flock of bird-like robots. In the next room, Emo is tempted to answer a ringing phone, but Proog stops him and reveals a trap. The room is also occupied by a robot resembling a self-operating typewriter, which Emo appears to laugh at.",
       subscriber: "25254545 Subscribers",
       isLive: true,
     },
@@ -97,13 +97,14 @@ const PlayList = ({ handleSelectVideo }) => {
       videoUrl:
         "http://commondatahttps://www.youtube.com/embed/t0Q2otsqC4I?si=_SejWVakq6Ipz-wzstorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
       description:
-        "Song : Raja Raja Kareja Mein Samaja/nAlbum : Raja Kareja Mein Samaja/nArtist : Radhe Shyam Rasia/nSinger : Radhe Shyam Rasia/nMusic Director : Sohan Lal, Dinesh Kumar/nLyricist : Vinay Bihari, Shailesh Sagar, Parmeshwar Premi/nMusic Label : T-Series",
+        "While forest managers have proved adept of stamping out small wildfires, they have been less successful at suppressing larger, more devastating burns. The result is that the average wildfire is more severe than it would be without human intervention.",
+
       subscriber: "25254545 Subscribers",
       isLive: false,
     },
     {
       id: "7",
-      title: "The first Blender Open Movie from 2006",
+      title: "Elephants Dream",
       thumbnailUrl: ElephantsDream,
       duration: "12:18",
       uploadTime: "May 9, 2011",
@@ -112,7 +113,8 @@ const PlayList = ({ handleSelectVideo }) => {
       videoUrl:
         "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
       description:
-        "Song : Raja Raja Kareja Mein Samaja/nAlbum : Raja Kareja Mein Samaja/nArtist : Radhe Shyam Rasia/nSinger : Radhe Shyam Rasia/nMusic Director : Sohan Lal, Dinesh Kumar/nLyricist : Vinay Bihari, Shailesh Sagar, Parmeshwar Premi/nMusic Label : T-Series",
+        "An old man, Proog, guides the young Emo through a giant surreal machine, in which the rooms have no clear transition to each other. After Proog saves Emo from flying plugs in a room consisting of a gigantic telephone switchboard, they run through a dark room filled with electrical cables and flee from a flock of bird-like robots. In the next room, Emo is tempted to answer a ringing phone, but Proog stops him and reveals a trap. The room is also occupied by a robot resembling a self-operating typewriter, which Emo appears to laugh at.",
+
       subscriber: "25254545 Subscribers",
       isLive: false,
     },
