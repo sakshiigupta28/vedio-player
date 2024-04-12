@@ -1,5 +1,7 @@
 Video Player with Next.js
 
+Host Link : https://video-player-nextjs.netlify.app/
+
 To get started with the Video Player made with Next.js, follow these steps:
 
 Step 1: Install the required dependencies:
