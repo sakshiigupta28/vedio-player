@@ -1,10 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Video Player with Next.js
 
-## Getting Started
+To get started with the Video Player made with Next.js, follow these steps:
 
-First, run the development server:
+Step 1: Install the required dependencies:
 
-```bash
+npm install
+
+This command will import all the necessary Node.js modules needed for the project.
+
+Step 2: Start the development server by running one of the following commands:
+
 npm run dev
 # or
 yarn dev
@@ -12,25 +17,29 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Choose the appropriate command based on your preferred package manager. This will launch the development server.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Step 3: Once the server is running, open http://localhost:3000 in your web browser to see the result.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+// 
 
-## Learn More
+Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+The project is structured as follows:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+src folder: This folder contains all the source code for the project.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+components folder: Inside the components folder, we have various reusable components used throughout the application.
 
-## Deploy on Vercel
+Playlist: This component integrates the playlist functionality. It utilizes dummy JSON data to populate the playlist.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Files:
+index.jsx: The main JavaScript file for the Playlist component.
+styles.scss: The SCSS file containing styles specific to the Playlist component.
+VideoPlayer: This component serves as the main video player for the application. It includes all the necessary functionalities for video playback.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Files:
+index.jsx: The main JavaScript file for the VideoPlayer component.
+styles.scss: The SCSS file containing styles specific to the VideoPlayer component.
+Each component folder contains an index.jsx file, which serves as the main entry point for the component, and a styles.scss file for component-specific styles.
