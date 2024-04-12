@@ -149,6 +149,7 @@ const PlayList = ({ handleSelectVideo }) => {
             ? videoData.map((ele) => {
                 return (
                   <div
+                    onClick={() => handleSelectVideo(ele)}
                     key={ele.id}
                     className={
                       ele.id === hoveredIndex
@@ -158,10 +159,7 @@ const PlayList = ({ handleSelectVideo }) => {
                     onMouseEnter={() => setHoveredIndex(ele.id)}
                     onMouseLeave={() => setHoveredIndex(null)}
                   >
-                    <div
-                      className="img_div"
-                      onClick={() => handleSelectVideo(ele)}
-                    >
+                    <div className="img_div">
                       <Image
                         src={ele.thumbnailUrl}
                         width={350}
@@ -183,6 +181,7 @@ const PlayList = ({ handleSelectVideo }) => {
                 console.log(ele.id, "iergiurvugyru");
                 return (
                   <div
+                    onClick={() => handleSelectVideo(ele)}
                     key={ele.id}
                     className={
                       ele.id === hoveredIndex
@@ -192,10 +191,7 @@ const PlayList = ({ handleSelectVideo }) => {
                     onMouseEnter={() => setHoveredIndex(ele.id)}
                     onMouseLeave={() => setHoveredIndex(null)}
                   >
-                    <div
-                      className="img_div"
-                      onClick={() => handleSelectVideo(ele)}
-                    >
+                    <div className="img_div">
                       <Image
                         src={ele.thumbnailUrl}
                         width={350}
