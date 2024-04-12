@@ -1,0 +1,55 @@
+.playlist_div {
+  .heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .button {
+    height: 2rem;
+    width: 8rem;
+    border: 1px solid white;
+    border-radius: 8px;
+    float: right;
+    &:hover {
+      background-color: #502076;
+    }
+  }
+  .video_playlist {
+    margin-top: 2rem;
+    .playlist_title_desc_div {
+      background-color: #191919;
+      border-radius: 8px;
+      display: flex;
+      margin: 1rem 0;
+      .img_div {
+        width: 30%;
+        margin: 0.5rem;
+      }
+      .desc_div {
+        width: 75%;
+        margin: auto;
+        padding: 0.5rem;
+      }
+      &:hover {
+        background-color: #502076;
+      }
+    }
+  }
+}
+
+@media (max-width: "1441px") {
+  .playlist_div {
+    .video_playlist {
+      .playlist_title_desc_div {
+        .desc_div {
+          .video_name {
+            font-size: 15px;
+          }
+          .play_video_desc {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
